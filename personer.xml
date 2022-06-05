@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personer>
+	<person id="1" kjønn="M">
+		<fornavn>Donald</fornavn>
+		<etternavn>Duck</etternavn>
+		<epost>donald@disney.com</epost>
+		<registrert>2018-05-14</registrert>
+		<salg>456</salg>
+		<salg>1500</salg>
+		<salg>500</salg>
+	</person>
+	<person id="2" kjønn="K">
+		<fornavn>Dolly</fornavn>
+		<etternavn>Duck</etternavn>
+		<epost>dolly@disney.com</epost>
+		<registrert>2018-05-14</registrert>
+		<salg>780</salg>
+		<salg>100</salg>
+	</person>
+	<person id="3" kjønn="M">
+		<fornavn>Petter</fornavn>
+		<etternavn>Smart</etternavn>
+		<epost>petter@smart.com</epost>
+		<registrert>2018-05-14</registrert>
+		<salg>789</salg>
+		<salg>45</salg>
+	</person>
+</personer>
