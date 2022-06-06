@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <melding xmlns="urn:no:skatteetaten:fastsetting:innsamling:finansprodukter:v1"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="urn:no:skatteetaten:fastsetting:innsamling:finansprodukter:v1 finansprodukter_v1_1.xsd">
+         xsi:schemaLocation="urn:no:skatteetaten:fastsetting:innsamling:finansprodukter:v1 finansprodukter_v1_2.xsd">
   <leveranse>
     <kildesystem>Kildesystemet v2.0.5</kildesystem>
-    <oppgavegiver>
+     <oppgavegiver>
       <organisasjonsnummer>987546231</organisasjonsnummer>
       <organisasjonsnavn>FINANSINSTITUSJON ASA</organisasjonsnavn>
       <!-- Hvis leveransen inneholder FATCA-opplysninger -->
