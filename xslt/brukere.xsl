@@ -25,6 +25,7 @@
 </html>
 
 </xsl:template>
+
   <xsl:template match="bruker">
 <tr>
 <td>
