@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="personer1.xsd"?>
 <personer>
 	<person id="1" kjønn="M">
 		<fornavn>Donald</fornavn>
 		<etternavn>Duck</etternavn>
 		<epost>donald@disney.com</epost>
+		<epost>donald@gmail.com</epost>
 		<registrert>2018-05-14</registrert>
 		<salg>456</salg>
 		<salg>1500</salg>
