@@ -20,5 +20,4 @@
         <xsd:attribute name="kjønn" type="xsd:string" use="required" />
     </xsd:complexType>
 
-
 </xsd:schema>

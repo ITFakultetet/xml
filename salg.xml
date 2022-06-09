@@ -6,9 +6,9 @@
       <salgKvinner>880</salgKvinner>
    </oppsummering>
    <selger>
-      <fornavn>Donald</fornavn>
-      <etternavn>Duck</etternavn>
-      <salg>2456</salg>
+      <fornavn>Petter</fornavn>
+      <etternavn>Smart</etternavn>
+      <salg>834</salg>
    </selger>
    <selger>
       <fornavn>Dolly</fornavn>
@@ -16,8 +16,8 @@
       <salg>880</salg>
    </selger>
    <selger>
-      <fornavn>Petter</fornavn>
-      <etternavn>Smart</etternavn>
-      <salg>834</salg>
+      <fornavn>Donald</fornavn>
+      <etternavn>Duck</etternavn>
+      <salg>2456</salg>
    </selger>
 </salg>
