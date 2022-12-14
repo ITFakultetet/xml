@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="personer1.xsd"?>
+<?xml-model href="salg.xsd"?>
 <personer>
 	<person id="1" kjønn="M">
 		<fornavn>Donald</fornavn>
