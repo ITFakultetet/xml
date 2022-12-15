@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="test.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<personer>
+    <person id="1">
+        <navn>Ole Jensen</navn>
+        <alder>45</alder>
+    </person>
+    <person id="2">
+        <navn>Kari Jensen</navn>
+        <alder>34</alder>
+    </person>
+</personer>
