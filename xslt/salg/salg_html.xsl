@@ -29,13 +29,12 @@
 					<th>ID</th>
 					<th>Navn</th>
 					<th>Tel</th>
-					<th>Kjønn</th>
 					<th>Totalt Salg</th>
 					<th>Snittsalg</th>
 					</tr>
 			</thead>
 			<tbody>
-				<xsl:for-each select="person[@kjønn=$kjønn and etternavn matches(.,'[D].*[k]')]">
+				<xsl:for-each select="person[@kjønn=$kjønn]">
 					<xsl:sort data-type="text" order="ascending" lang="no" select="etternavn"/>
 					<xsl:sort data-type="text" order="ascending" lang="no" select="fornavn"/>
 					
@@ -51,9 +50,6 @@
 						<td id="tel-nummer">
 							<xsl:value-of select="tel"/>
 						</td>
-						<td class="center-adjust">
-							<xsl:value-of select="@kjønn"/>
-						</td>
 						<td class="right-adjust">
 							<xsl:value-of select="sum(salg)"/>
 						</td>
@@ -63,7 +59,7 @@
 					</tr>
 				</xsl:for-each>
 			<!-- Merk: konteksten er nå: personer  -->	
-		<tr><td colspan="4">Totalt salg: </td><td><xsl:value-of select="sum(person[@kjønn=$kjønn]/salg)"></xsl:value-of></td></tr>
+		<tr><td colspan="4">Totalt salg: </td><td class="right-adjust"><xsl:value-of select="sum(person[@kjønn=$kjønn]/salg)"></xsl:value-of></td></tr>
 				</tbody>
 		</table>
 		
