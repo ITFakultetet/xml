@@ -38,7 +38,6 @@
 					<th>ID</th>
 					<th>Navn</th>
 					<th>Tel</th>
-					<th>Kjønn</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -53,9 +52,6 @@
 						</td>
 						<td>
 							<xsl:value-of select="tel"/>
-						</td>
-						<td>
-							<xsl:value-of select="@kjønn"/>
 						</td>
 					</tr>
 				</xsl:for-each>

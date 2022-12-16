@@ -5,7 +5,7 @@
 	<xsl:template match="/">
 		<html>
 			<head>
-				<title>Dette er personer</title>
+				<title>Salgsrapport</title>
 				<link rel="stylesheet" href="stiler.css"/>
 			</head>
 			<body>
@@ -31,7 +31,7 @@
 					<th>Tel</th>
 					<th>Totalt Salg</th>
 					<th>Snittsalg</th>
-					</tr>
+				</tr>
 			</thead>
 			<tbody>
 				<xsl:for-each select="person[@kjønn=$kjønn]">
@@ -43,9 +43,7 @@
 							<xsl:value-of select="@id"/>
 						</td>
 						<td>
-						
 							<xsl:value-of select="concat(fornavn,' ',etternavn)"/>
-						
 						</td>
 						<td id="tel-nummer">
 							<xsl:value-of select="tel"/>
@@ -54,13 +52,17 @@
 							<xsl:value-of select="sum(salg)"/>
 						</td>
 						<td class="right-adjust">
-							<xsl:value-of select="avg(salg)"/>
+							<xsl:value-of select="round(avg(salg),2)"/>
 						</td>
 					</tr>
 				</xsl:for-each>
-			<!-- Merk: konteksten er nå: personer  -->	
-		<tr><td colspan="4">Totalt salg: </td><td class="right-adjust"><xsl:value-of select="sum(person[@kjønn=$kjønn]/salg)"></xsl:value-of></td></tr>
-				</tbody>
+				<!-- Merk: konteksten er nå: personer  -->	
+				<tr>
+					<td colspan="3">Totalt salg: </td>
+					<td class="right-adjust"><xsl:value-of select="sum(person[@kjønn=$kjønn]/salg)"></xsl:value-of></td>
+					<td class="right-adjust"><xsl:value-of select="round(avg(person[@kjønn=$kjønn]/salg),2)"></xsl:value-of></td>
+				</tr>
+			</tbody>
 		</table>
 		
 	</xsl:template>

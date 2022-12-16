@@ -13,7 +13,7 @@
             </oppsummering>
             
             <xsl:apply-templates select="/personer/person">
-                <xsl:sort select="sum(salg)" data-type="number"/>
+                <xsl:sort select="sum(salg)" data-type="number" order="descending"/>
             </xsl:apply-templates>
             
         </salg>

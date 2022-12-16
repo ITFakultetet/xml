@@ -28,12 +28,21 @@
 		<fornavn>Petter</fornavn>
 		<etternavn>Smart</etternavn>
 		<tel>+1 432-654-576</tel>
-		<salg valuta="NOK">5000</salg>
-		<salg>2500</salg>
+		<salg>5750</salg>
+		<salg>25000</salg>
 	</person>
 	<person id="4" kjønn="M">
-		<fornavn>Onkel</fornavn>
+		<fornavn>Ole</fornavn>
 		<etternavn>Østlund</etternavn>
 		<tel>+1 123-345-567</tel>
 	</person>
+	<person id="4" kjønn="K">
+		<fornavn>Eva</fornavn>
+		<etternavn>Årnes</etternavn>
+		<tel>+47 77766655</tel>
+		<salg>23000</salg>
+		<salg>14800</salg>
+		<salg>8600.50</salg>
+	</person>
+
 </personer>
