@@ -5,14 +5,14 @@
                 version="3.0">
     
     <xsl:output method="text"/>
-   
-   
+    
+    
     
     <xsl:template match="/personer" >
-    Selgere
-    ---------------------------------
-    <xsl:value-of select="person[@kjønn='K']/concat(fornavn,' ',etternavn)" separator=", "/> 
-     <xsl:text></xsl:text>  
+        Selgere
+        ---------------------------------
+        <xsl:value-of select="person[@kjønn='K']/concat(fornavn,' ',etternavn)" separator=", "/> 
+        <xsl:text>&#xA;</xsl:text>
     </xsl:template>
     
     
