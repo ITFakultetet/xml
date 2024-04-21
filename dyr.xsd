@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="dyr">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="dyr" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="art" type="xs:string" />
+                            <xs:element name="alder" type="xs:integer" minOccurs="0"/>
+                            <xs:element name="kjønn" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="navn" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
