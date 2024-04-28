@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dyr2.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<dyr>
+    <katt navn="Truls">
+        <alder>5</alder>
+        <kjønn>Hann</kjønn>
+    </katt>
+    <katt navn="Strofe">
+        <alder>4</alder>
+        <kjønn>Hunn</kjønn>
+    </katt>
+    <hund navn="Pan">
+        <alder>2</alder>
+        <kjønn>Hann</kjønn>
+    </hund>
+    <hund navn="Peik">
+        <alder>1</alder>
+        <kjønn>Hann</kjønn>
+    </hund>
+    <katt navn="Petra">
+        <alder>2</alder>
+        <kjønn>Hunn</kjønn>
+    </katt>
+    <katt navn="Petra">
+        <kjønn>Hunn</kjønn>
+    </katt>
+</dyr>

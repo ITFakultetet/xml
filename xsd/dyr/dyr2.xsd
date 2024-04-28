@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="dyr">
+        <xs:complexType mixed="true">
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="katt" type="katt" />
+                <xs:element name="hund" type="hund" />
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+
+
+<xs:complexType name="katt">
+    <xs:sequence>
+        <xs:element name="alder" minOccurs="0" type="xs:string" />
+        <xs:element name="kjønn" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="navn" use="required" />
+</xs:complexType>
+
+<xs:complexType name="hund">
+    <xs:sequence>
+        <xs:element name="alder" minOccurs="0" type="xs:string" />
+        <xs:element name="kjønn" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="navn" use="required" />
+</xs:complexType>
+
+
+
+</xs:schema>
