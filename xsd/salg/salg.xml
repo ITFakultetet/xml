@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="salg.xsd"?>
+<?xml-model href="salg2.xsd"?>
 <personer>
 	<person id="1" kjønn="M">
 		<fornavn>Donald</fornavn>
@@ -21,10 +21,11 @@
 	</person>
 	<person id="3" kjønn="M">
 		<fornavn>Petter</fornavn>
+		<mellomnavn>McDuck</mellomnavn>
 		<etternavn>Smart</etternavn>
 		<epost>petter@smart.com</epost>
 		<registrert>2018-05-14</registrert>
 		<salg>789</salg>
-		<salg>45</salg>
+		<salg>1</salg>
 	</person>
 </personer>

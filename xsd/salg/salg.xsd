@@ -9,8 +9,8 @@
 							<xsd:element name="fornavn" type="xsd:string" />
 							<xsd:element name="etternavn" type="xsd:string" />
 							<xsd:element name="epost" type="xsd:string" maxOccurs="unbounded"/>
-							<xsd:element name="registrert" type="xsd:string" />
-							<xsd:element name="salg" maxOccurs="unbounded" type="xsd:string" />
+							<xsd:element name="registrert" type="xsd:date" />
+							<xsd:element name="salg" maxOccurs="unbounded" type="xsd:integer" />
 						</xsd:sequence>
 						<xsd:attribute name="id" type="xsd:integer" use="required" />
 						<xsd:attribute name="kjønn" use="required" />

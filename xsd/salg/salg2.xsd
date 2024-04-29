@@ -11,14 +11,22 @@
     <!-- Type-definisjon for person-->
     <xsd:complexType name="personType">
         <xsd:sequence>
-            <xsd:element name="fornavn" minOccurs="1" maxOccurs="unbounded"></xsd:element>
-            <xsd:element name="etternavn" minOccurs="1" maxOccurs="1"></xsd:element>
-            <xsd:element name="epost" maxOccurs="unbounded"></xsd:element>
-            <xsd:element name="registrert" maxOccurs="1"></xsd:element>
-            <xsd:element name="salg" maxOccurs="unbounded" type="xsd:string" />
+            <xsd:element name="fornavn" minOccurs="1" maxOccurs="unbounded" type="xsd:string"/>
+            <xsd:element name="mellomnavn" minOccurs="0" maxOccurs="1" type="xsd:string" />
+            <xsd:element name="etternavn" minOccurs="1" maxOccurs="1" type="xsd:string"/>
+            <xsd:element name="epost" maxOccurs="unbounded" type="xsd:string" />
+            <xsd:element name="registrert" maxOccurs="1" type="xsd:date" />
+            <xsd:element name="salg" maxOccurs="unbounded" type="salg" />
         </xsd:sequence>
         <xsd:attribute name="id" type="xsd:integer" use="required" />
         <xsd:attribute name="kjønn" type="xsd:string" use="required" />
     </xsd:complexType>
+
+
+ <xsd:simpleType name="salg">
+    <xsd:restriction base="xsd:integer">
+        <xsd:minInclusive value="1" /> 
+    </xsd:restriction>
+ </xsd:simpleType>
 
 </xsd:schema>
