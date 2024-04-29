@@ -13,12 +13,12 @@
         <alder>4</alder>
         <kjønn>Hunn</kjønn>
     </dyr>
-    <dyr navn="Pan">
+    <dyr navn="PAN">
         <art>Hund</art>
         <alder>2</alder>
         <kjønn>Hann</kjønn>
     </dyr>
-    <dyr navn="Peik">
+    <dyr navn="peik">
         <art>HUnd</art>
         <alder>1</alder>
         <kjønn>Hann</kjønn>
