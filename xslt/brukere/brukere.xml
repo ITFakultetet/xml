@@ -1,4 +1,4 @@
-<?xml-stylesheet type="text/xsl" href="brukere.xsl" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <brukere>
  <bruker fornavn="Joe" etternavn="Fawcett" />
  <bruker fornavn="Danny" etternavn="Ayers" />
